@@ -3,11 +3,8 @@ clear; clc;
 
 // setting trivial values for constants.
 g = 1; m1 = 10; m2 = 10;
-stepsize = 0.01
-upperlimit = 150
-intervals = upperlimit ./ stepsize
 
-t = [0 : stepsize : upperlimit]
+t = [0 : 0.01 : 150]
 
 // setting up the differential equations.
 function [dxdt]=f(t, x)
