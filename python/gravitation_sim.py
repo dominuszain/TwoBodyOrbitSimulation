@@ -35,7 +35,7 @@ class GravitationSim:
         self.ax.set_xlabel("X Position")
         self.ax.set_ylabel("Y Position")
         self.ax.set_autoscale_on(False)
-        self.fig.suptitle("Code of Zain Ul Abideen\nModernized by Claude Code + Gemma4", fontsize=16)
+        self.fig.suptitle("Code of Zain Ul Abideen", fontsize=16)
 
         # Animation elements
         self.trail1, = self.ax.plot([], [], "-", color="blue", alpha=0.5, label="Mass 1")

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Two-body orbit simulation"
+abstract: "Numerical solutions of the two-body problem in Newtonian gravitation, in Scilab and Python."
+authors:
+  - family-names: Ul Abideen
+    given-names: Zain
+    email: zain2@uni-bremen.de
+    affiliation: University of Bremen
+version: "1.0.0"
+date-released: "2026-10-26"
+license: MIT
+url: "https://github.com/dominuszain/TwoBodyOrbitSimulation"
+repository-code: "https://github.com/dominuszain/TwoBodyOrbitSimulation"
+keywords:
+  - classical mechanics
+  - gravitational two-body problem
+  - orbit simulation
+  - numerical methods
+  - python
+  - scilab
+EOF
